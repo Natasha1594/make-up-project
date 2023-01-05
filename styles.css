@@ -134,6 +134,18 @@ img {
     cursor: pointer;
 }
 
+.button:hover{
+    background-color: gray;
+}
+.empty-cart[type="submit"]:hover {
+    background-color: gray;
+}
+
+.checkout[type="submit"]:hover{
+    background-color: gray;
+}
+
+
 .basket {
     width: 500px;
     border: 1px solid #ccc;
@@ -185,7 +197,7 @@ img {
 }
   
 .contact-form button[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: gray;
 }
 
 .container {
@@ -194,6 +206,12 @@ img {
     width: 100%;
 }
   
-  
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+    
   
   
